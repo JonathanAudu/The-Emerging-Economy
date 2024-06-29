@@ -6,5 +6,13 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    //
+    public function index()
+    {
+        return view('Home.index');
+    }
+
+    public function aboutTheConvener()
+    {
+        return view('Home.abouttheconvener');
+    }
 }
