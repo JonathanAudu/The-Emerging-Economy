@@ -15,4 +15,12 @@ class HomeController extends Controller
     {
         return view('Home.abouttheconvener');
     }
+
+    public function Mission() {
+        return view('Home.missionvission');
+    }
+
+    public function FAQs() {
+        return view('Home.FAQ');
+    }
 }

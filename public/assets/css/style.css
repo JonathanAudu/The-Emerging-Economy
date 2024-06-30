@@ -172,6 +172,31 @@
     color: #999999;
 }
 
+.page-header-vision {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+        url(../img/emerging-economy-team.JPG) no-repeat;
+    background-size: cover;
+}
+
+.page-header-vision .breadcrumb-item + .breadcrumb-item::before {
+    color: #999999;
+}
+
+
+.page-header-faq {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+        url(../img/FAQs-images.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.page-header-faq .breadcrumb-item + .breadcrumb-item::before {
+    color: #999999;
+}
+
 /*** Causes ***/
 .causes-item .progress {
     height: 5px;

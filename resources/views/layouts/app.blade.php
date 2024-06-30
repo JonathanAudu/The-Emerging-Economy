@@ -58,7 +58,7 @@
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <a href="/" class="navbar-brand ms-4 ms-lg-0">
                 <h1 class="fw-bold text-primary m-0">
                     The Emerging <span class="text-white">Economy</span>
                 </h1>
@@ -69,18 +69,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <a href="/" class="nav-item nav-link active">Home</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                         <div class="dropdown-menu m-0">
-                            <a href="" class="dropdown-item">History, Vision & Mission</a>
+                            <a href="/missionvission" class="dropdown-item">History, Vision & Mission</a>
                             <a href="/abouttheconvener" class="dropdown-item">About the Convener</a>
-                            <a href="" class="dropdown-item">Annual Conference</a>
-                            <a href="" class="dropdown-item">Our Community</a>
                         </div>
                     </div>
                     <a href="" class="nav-item nav-link">Events & Gallery</a>
-                    <a href="" class="nav-item nav-link">FAQs</a>
+                    <a href="/FAQ" class="nav-item nav-link">FAQs</a>
                     <a href="" class="nav-item nav-link">Contact Us</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">

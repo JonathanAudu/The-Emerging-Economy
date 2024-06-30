@@ -6,7 +6,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('assets/img/IMG-20230918-WA0005_1695161081.jpg') }}" alt="Image" />
+                    <img class="w-100" src="{{ asset('assets/img/emerging-economy-team.JPG') }}" alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -42,7 +42,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px">
                         <img class="position-absolute w-100 h-100"
-                            src="{{ asset('assets/img/IMG-20230918-WA0001_1695160127.jpg') }}" alt=""
+                            src="{{ asset('assets/img/66601D96-B018-46AE-B8A3-834361FBC2EA_1695001534.jpeg') }}" alt=""
                             style="object-fit: cover" />
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="position-relative mt-auto">
                             <img class="img-fluid"
-                                src="{{ asset('assets/img/66601D96-B018-46AE-B8A3-834361FBC2EA_1695001534.jpeg') }}"
+                                src="{{ asset('assets/img/emerging-economy-student.JPG') }}"
                                 alt="" />
                             <div class="causes-overlay">
                                 <a class="btn btn-outline-primary" href="">
@@ -140,7 +140,7 @@
                             </p>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="{{ asset('assets/img/IMG-20230918-WA0007_1695161280.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('assets/img/emerging-economy-students.JPG') }}"
                                 alt="" />
                             <div class="causes-overlay">
                                 <a class="btn btn-outline-primary" href="">
@@ -346,44 +346,63 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                        src="{{ asset('assets/img/testimonial-1.jpg') }}" style="width: 100px; height: 100px" />
+                        src="{{ asset('assets/img/testimonial1.jpg') }}" style="width: 100px; height: 100px" />
                     <div class="testimonial-text rounded text-center p-4">
                         <p>
-                            Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-                            duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-                            clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.
+                            Hi! I am Chizaram Ogbonna an undergraduate at the Nnamdi Azikiwe University.
+                            The Smart Money Student community has afforded me the opportunity to meet lots of like minds,
+                            students like me, who believe so much in their potentials and are so intentional in bringing it
+                            into light, and this has stirred up a high level of growth mindset in me. It has also afforded
+                            me a networking leveraging
+                            Also the conferences, especially the just concluded student edition of emerging economy tagged
+                            So You Think You are an Entrepreneur? was a huge one for me, it as really an eye opener and now,
+                            I understand what it actually means to be an entrepreneur even as someone offering services.
+                            And yes! To top it all, I was one of the beneficiaries of the grant award of $100 for
+                            undergraduates and it has helped me boost my business as a Virtual Assistant.
+                            Thank you for impacting my life greatly.
                         </p>
-                        <h5 class="mb-1">Doner Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <h5 class="mb-1">Chizaram Ogbonna</h5>
+                        <span class="fst-italic">Undergraduate</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                        src="{{ asset('assets/img/testimonial-2.jpg') }}" style="width: 100px; height: 100px" />
+                        src="{{ asset('assets/img/testimonial2.jpg') }}" style="width: 100px; height: 100px" />
                     <div class="testimonial-text rounded text-center p-4">
                         <p>
-                            Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-                            duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-                            clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.
+                            I'm Nnadi Ifeanyi, a medical student and a member of the Smart Money Student community.
+                            What happened in the Smart money student conference (Emerging Economy 2.0) went beyond the
+                            conference. It redirected the entire course of my life, taught me to dream big, play big, demand
+                            the most out of life... Knowing that life would willing give.
+                            Being in the community has opened my eyes to a whole lot of opportunities out there. Looking
+                            back some 9 months ago when we had that conference, I'd say I'm already a better version of
+                            myself...
+                            And striving to become even better, and world class at what I do.
+                            I was also a recipient of the undergraduate grant award of $100 on the 7th of November 2022.
                         </p>
-                        <h5 class="mb-1">Doner Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <h5 class="mb-1">Nnadi Ifeanyi</h5>
+                        <span class="fst-italic">Medical Student</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                        src="{{ asset('img/testimonial-3.jpg') }}" style="width: 100px; height: 100px" />
+                        src="{{ asset('assets/img/testimonial1.jpg') }}" style="width: 100px; height: 100px" />
                     <div class="testimonial-text rounded text-center p-4">
                         <p>
-                            Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-                            duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-                            clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.
+                            Hi! I am Chizaram Ogbonna an undergraduate at the Nnamdi Azikiwe University.
+                            The Smart Money Student community has afforded me the opportunity to meet lots of like minds,
+                            students like me, who believe so much in their potentials and are so intentional in bringing it
+                            into light, and this has stirred up a high level of growth mindset in me. It has also afforded
+                            me a networking leveraging
+                            Also the conferences, especially the just concluded student edition of emerging economy tagged
+                            So You Think You are an Entrepreneur? was a huge one for me, it as really an eye opener and now,
+                            I understand what it actually means to be an entrepreneur even as someone offering services.
+                            And yes! To top it all, I was one of the beneficiaries of the grant award of $100 for
+                            undergraduates and it has helped me boost my business as a Virtual Assistant.
+                            Thank you for impacting my life greatly.
                         </p>
-                        <h5 class="mb-1">Doner Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <h5 class="mb-1">Chizaram Ogbonna</h5>
+                        <span class="fst-italic">Undergraduate</span>
                     </div>
                 </div>
             </div>
