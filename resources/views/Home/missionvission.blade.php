@@ -20,7 +20,7 @@
     <!-- Causes Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-7 mb-5">Empowering Emerging Economies for Global Prosperity</h1>
             </div>
             <div class="row g-4 justify-content-center">

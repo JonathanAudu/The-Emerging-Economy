@@ -197,6 +197,30 @@
     color: #999999;
 }
 
+.page-header-contact-us {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+        url(../img/contact-us-image.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.page-header-contact-us .breadcrumb-item + .breadcrumb-item::before {
+    color: #999999;
+}
+
+.page-header-gallery {
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+        url(../img/gallery-pic.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page-header-gallery .breadcrumb-item + .breadcrumb-item::before {
+    color: #999999;
+}
+
 /*** Causes ***/
 .causes-item .progress {
     height: 5px;

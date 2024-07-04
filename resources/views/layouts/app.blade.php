@@ -71,15 +71,15 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="/" class="nav-item nav-link active">Home</a>
                     <div class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <a href="/mission-vission" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                         <div class="dropdown-menu m-0">
-                            <a href="/missionvission" class="dropdown-item">History, Vision & Mission</a>
-                            <a href="/abouttheconvener" class="dropdown-item">About the Convener</a>
+                            <a href="/mission-vission" class="dropdown-item">History, Vision & Mission</a>
+                            <a href="/about-the-convener" class="dropdown-item">About the Convener</a>
                         </div>
                     </div>
-                    <a href="" class="nav-item nav-link">Events & Gallery</a>
+                    <a href="/gallery" class="nav-item nav-link">Events & Gallery</a>
                     <a href="/FAQ" class="nav-item nav-link">FAQs</a>
-                    <a href="" class="nav-item nav-link">Contact Us</a>
+                    <a href="/Contact-Us" class="nav-item nav-link">Contact Us</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
                     <a class="btn btn-outline-primary py-2 px-3" href="">

@@ -86,105 +86,6 @@
     </div>
     <!-- About End -->
 
-    <!-- Causes Start -->
-    <div class="container-xxl bg-light my-5 py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
-                    Feature Causes
-                </div>
-                <h1 class="display-6 mb-5">
-                    Every Child Deserves The Opportunity To Learn
-                </h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div
-                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Education</small>
-                            </div>
-                            <h5 class="mb-3">Education For African Children</h5>
-                            <p>
-                                Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                                amet diam et eos
-                            </p>
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid"
-                                src="{{ asset('assets/img/emerging-economy-student.JPG') }}"
-                                alt="" />
-                            <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="">
-                                    Read More
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div
-                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Pure Water</small>
-                            </div>
-                            <h5 class="mb-3">Ensure Pure Drinking Water</h5>
-                            <p>
-                                Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                                amet diam et eos
-                            </p>
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="{{ asset('assets/img/emerging-economy-students.JPG') }}"
-                                alt="" />
-                            <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="">
-                                    Read More
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div
-                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Healthy Life</small>
-                            </div>
-                            <h5 class="mb-3">Ensure Medical Treatment</h5>
-                            <p>
-                                Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                                amet diam et eos
-                            </p>
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="{{ asset('assets/img/IMG-20230918-WA0003_1695161220.jpg') }}"
-                                alt="" />
-                            <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="">
-                                    Read More
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Causes End -->
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -198,10 +99,9 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="{{ asset('assets/img/icon-1.png') }}" alt="" />
-                        <h4 class="mb-3">Child Education</h4>
+                        <h4 class="mb-3">Smart Money Student</h4>
                         <p class="mb-4">
-                            Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                            diam justo sed vero dolor duo.
+                            To instill smart money mindset In the younger generation and provide financial awareness and opportunities, insights, skills so as to curb the high rising tendency of internet fraud and scams amongst them and empowering them unto profitable enterprises.
                         </p>
                         <a class="btn btn-outline-primary px-3" href="">
                             Learn More
@@ -214,10 +114,9 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="{{ asset('assets/img/icon-2.png') }}" alt="" />
-                        <h4 class="mb-3">Medical Treatment</h4>
+                        <h4 class="mb-3">Annual Conference</h4>
                         <p class="mb-4">
-                            Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                            diam justo sed vero dolor duo.
+                            The Emerging Economy annual summit is where it all happens. Brainstorm, analyze, innovate on the common opportunities for socioeconomic development, the unique challenges and propel a way forward.
                         </p>
                         <a class="btn btn-outline-primary px-3" href="">
                             Learn More
@@ -230,10 +129,9 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="{{ asset('assets/img/icon-3.png') }}" alt="" />
-                        <h4 class="mb-3">Pure Drinking Water</h4>
+                        <h4 class="mb-3">Emerging Economy</h4>
                         <p class="mb-4">
-                            Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                            diam justo sed vero dolor duo.
+                            Bridging the gap between emerging economies and more developed countries to improve the overall global economy.Improving the overall global economy through national contribution and development.
                         </p>
                         <a class="btn btn-outline-primary px-3" href="">
                             Learn More
