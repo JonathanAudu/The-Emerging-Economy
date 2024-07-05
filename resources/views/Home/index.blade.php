@@ -18,7 +18,7 @@
                                         Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
                                         stet lorem sit clita duo justo erat amet
                                     </p>
-                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="/register">
                                         Register Now
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
