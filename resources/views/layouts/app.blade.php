@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
@@ -29,11 +31,15 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+    </style>
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
@@ -56,18 +62,20 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="/" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-primary m-0">
+                <h1 class="fw-bold text-primary m-0" style="font-family: 'Bodoni Moda SC', serif;">
                     The Emerging <span class="text-white">Economy</span>
                 </h1>
             </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="/" class="nav-item nav-link active">Home</a>
                     <div class="nav-item dropdown">
-                        <a href="/mission-vission" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <a href="/mission-vission" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About
+                            Us</a>
                         <div class="dropdown-menu m-0">
                             <a href="/mission-vission" class="dropdown-item">History, Vision & Mission</a>
                             <a href="/about-the-convener" class="dropdown-item">About the Convener</a>
@@ -80,7 +88,7 @@
                 <div class="d-none d-lg-flex ms-2">
                     @if (Auth::check())
                         <a class="btn btn-outline-primary py-2 px-3" href="/logout"
-                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                             LOGOUT
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -103,7 +111,7 @@
     </div>
     <!-- Navbar End -->
 
-    @yield('content')
+    @yield("content")
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer mt-5 wow fadeIn" data-wow-delay="0.1s">
