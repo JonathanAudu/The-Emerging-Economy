@@ -6,20 +6,19 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('assets/img/emerging-economy-team.JPG') }}" alt="Image" />
+                    <img class="w-100" src="{{ asset('assets/img/240_F_1111621678_NWjaDfm9h7M0UXPP9nEYlUxdv8Csqu3N.jpg') }}" alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-white mb-3 animated slideInDown">
-                                        Let's Change The World With Humanity
+                                    <h1 class="text-white mb-3 animated slideInDown" style="font-family: 'Bodoni Moda SC', serif;">
+                                        Powering the Next Wave of Africa’s Economic Prosperity
                                     </h1>
-                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">
-                                        Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                                        stet lorem sit clita duo justo erat amet
+                                    <p class="fs-5 text-white-60 mb-5 animated slideInDown" style="font-family: 'Rubik Wet Paint SC', serif; font-style: italic;">
+                                        Through innovative entrepreneurship
                                     </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="/register">
-                                        Register Now
+                                        Register for 2025
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>

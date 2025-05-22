@@ -35,50 +35,11 @@
                     <div class="h-100">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About The Convener
                         </div>
-                        <h1 class="display-6 mb-5"><q>The best time to start is now</q></h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                             <p class="text-dark mb-2">
-                                Hey! I'm Daniella. I’m a lover of good food and good books. (Lol, that rhymed!).
-                                <br>
-                                From a young
-                                age, I've been enthralled by money, finance, and the overall economy. I have a burning
-                                desire to provide solutions to real problems, especially in the economic sector.
-                                <br>
-                                Yes, I began my first business at 8 years old (I also won a Japanese haiku competition
-                                around this age). My business decrypted a real problem in my environment at the time. I
-                                don't know where I got the guts. But boy, I was on a mission, providing solutions.
-                                <span class="more-content">
-                                    <br>
-                                    Though a physiotherapist by training, I'm in every sense of the word an economist and
-                                    educator by calling. Fast forward to years later, I'm still propelled with the same
-                                    burning desire to solve problems, only with greater intensity and fierceness.
-                                    <br>
-                                    The Emerging Economy was birthed in 2020 amid the coronavirus pandemic and has impacted
-                                    hundreds of people, especially undergraduates in my home country, Nigeria. (I love
-                                    Nigeria.)
-                                    <br>
-                                    Burdened by the visceral economic hardship, the ever-widening gap between the rich and
-                                    poor, especially in emerging economies, and dreams buried due to poor access to start-up
-                                    funding, The Emerging Economy was born to provide answers. We partner with other
-                                    stakeholders already doing tremendous work in the economic sector to change the
-                                    narrative—one step at a time, one person at a time, one region at a time—until the
-                                    entire society is enlightened, recast, and secure.
-                                    <br>
-                                    Though there are grave, peculiar challenges faced by citizens of emerging economies,
-                                    unique business terrains that require the precision of a surgeon or the ruggedness of a
-                                    bulldozer, there are also unique opportunities, untapped resources, and enormous
-                                    possibilities for economic growth and sustainable development. Rather than focus
-                                    squarely on the challenges, we must look the other way long enough into the realm of
-                                    possibilities, harness, modify, and enthrone them.
-                                    <br>
-                                    In so doing, we bring to the spotlight the unquantifiable prospects for sustainable
-                                    socio-economic growth and development in emerging economies around the globe, especially
-                                    those of African descent.
-                                    <br><br>
-                                    That time is now!
-                                </span>
+                                Daniella is a visionary leader committed to building an inclusive economic future, particularly for young Africans. Her passion ignited during her college years, leading to the creation of Initiative SEDA (Socio-economic Development for African Undergraduates). This impactful nonprofit empowers African undergraduates through business mentorship, community support, skill-building, and financial grants, directly combating dropout rates and fostering a cycle of empowerment. Furthering her vision, Daniella convenes The Emerging Economy Conference, a dynamic platform designed to catalyze Africa's next phase of shared economic prosperity through innovative entrepreneurship, business reformation, and sustainable development. Her perspective is further enriched by her role as a World Economic Forum Global Shaper and her studies as an MIT MicroMasters student in Data, Design of Policy, and Economics, bringing a valuable global and data-driven lens to her work.
+
                             </p>
-                            <span class="read-more-btn" onclick="toggleReadMore()">Read More...</span>
                             <hr>
                             <span class="text-primary">Daniella Okereke, Founder</span>
                         </div>

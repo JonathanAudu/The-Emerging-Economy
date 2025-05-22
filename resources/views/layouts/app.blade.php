@@ -49,7 +49,7 @@
         <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>Abuja, Nigeria.</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@example.com</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@theemergingeconomy.org</small>
             </div>
             <div class="col-lg-6 px-5 text-end">
                 <small>Follow us:</small>
@@ -99,7 +99,7 @@
                         </form>
                     @else
                         <a class="btn btn-outline-primary py-2 px-3" href="/register">
-                            REGISTER
+                            REGISTER FOR 2025
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
                             </div>
@@ -117,13 +117,12 @@
     <div class="container-fluid bg-dark text-white-50 footer mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h1 class="fw-bold text-primary mb-4">
                         The Emerging <span class="text-white">Economy</span>
                     </h1>
                     <p>
-                        Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-                        ipsum et lorem et sit, sed stet lorem sit clita
+                        Powering the Next Wave of Africa’s Economic Prosperity
                     </p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
@@ -132,24 +131,18 @@
                         <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>Abuja, Nigeria</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+234 806 404 8943</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@theemergingeconomy.org</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">The Emerging Economy</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <img src="" alt="">
                 </div>
             </div>
         </div>
