@@ -57,9 +57,9 @@
 
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                             <p class="text-dark mb-2">
-                               We are a community of bold, forward-thinking entrepreneurs dedicated to unlocking Africa’s next wave of economic prosperity. We believe innovation is the key—and we're committed to nurturing groundbreaking ideas, empowering young leaders, and building platforms where entrepreneurship thrives.
+                               We are a community of bold, forward-thinking entrepreneurs dedicated to unlocking Africa’s next wave of economic prosperity. We believe innovation is the key and we're committed to nurturing groundbreaking ideas, empowering young leaders, and building platforms where entrepreneurship thrives.
 
-                                From hosting dynamic annual conferences across major cities—connecting aspiring changemakers with seasoned industry leaders—to offering grants that support student ventures and early-stage businesses, we are creating a collaborative ecosystem where big ideas flourish and real impact is made.
+                                From hosting dynamic annual conferences across major cities connecting aspiring changemakers with seasoned industry leaders to offering grants that support student ventures and early stage businesses, we are creating a collaborative ecosystem where big ideas flourish and real impact is made.
 
                                 We live and breathe business, economic growth, and entrepreneurship because we know that innovative entrepreneurship is the key to unlocking the next wave of Africa’s prosperity.
                             </p>
@@ -152,9 +152,9 @@
                             <h5>DANIELLA OKEREKE</h5>
                             <p class="text-primary">Executive Director/Convener</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/okereke.daniella"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://x.com/DaniellaOkereke"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/daniella_okereke"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -169,9 +169,9 @@
                             <h5>NDUBUSI KELECHI BLESSED</h5>
                             <p class="text-primary">Secretary</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/Ndubuisi.Kelechi.Blessed"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.x.com/Adaa_Samm"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/kel_samm"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -186,9 +186,9 @@
                             <h5>CHIMA OBIKE</h5>
                             <p class="text-primary">Project Manager</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/obikechima"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.x.com/obikechima"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/obikechima"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -203,9 +203,9 @@
                             <h5>JONATHAN AUDU</h5>
                             <p class="text-primary">Tech/IT Support</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/jonathan.audu"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://x.com/Jon_D_Audu"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/jon_audu/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

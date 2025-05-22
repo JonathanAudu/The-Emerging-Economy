@@ -47,22 +47,19 @@
                         <div class="team-text bg-light text-center">
                             <div class="team-social text-center"
                                 style="display: flex; justify-content: center; gap: 70px; padding: 10px;">
-                                <a class="btn btn-square" href=""
+                                <a class="btn btn-square" href="https://www.facebook.com/okereke.daniella"
                                     style="text-decoration: none; color: inherit; display: inline-block; padding: 10px; transition: all 0.3s;">
                                     <i class="fab fa-facebook-f" style="margin-right: 5px;"></i>
                                 </a>
-                                <a class="btn btn-square" href=""
+                                <a class="btn btn-square" href="https://x.com/DaniellaOkereke"
                                     style="text-decoration: none; color: inherit; display: inline-block; padding: 10px; transition: all 0.3s;">
                                     <i class="fab fa-twitter" style="margin-right: 5px;"></i>
                                 </a>
-                                <a class="btn btn-square" href=""
+                                <a class="btn btn-square" href="https://www.instagram.com/daniella_okereke"
                                     style="text-decoration: none; color: inherit; display: inline-block; padding: 10px; transition: all 0.3s;">
                                     <i class="fab fa-instagram" style="margin-right: 5px;"></i>
                                 </a>
-                                <a class="btn btn-square" href=""
-                                    style="text-decoration: none; color: inherit; display: inline-block; padding: 10px; transition: all 0.3s;">
-                                    <i class="fab fa-linkedin-in" style="margin-right: 5px;"></i>
-                                </a>
+
                             </div>
                         </div>
                     </div>
