@@ -10,20 +10,20 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
+                                <div class="col-lg-7 pt-5 pt-md-3 pt-sm-2">
                                     <h1 class="text-white mb-3 animated slideInDown" style="font-family: 'Bodoni Moda SC', serif;">
-                                        Powering the Next Wave of Africa’s Economic Prosperity
+                                      Powering the Next Wave of Africa’s Economic Prosperity
                                     </h1>
-                                    <p class="fs-5 text-white-60 mb-5 animated slideInDown" style="font-family: 'Rubik Wet Paint SC', serif; font-style: italic;">
-                                        Through innovative entrepreneurship
+                                    <p class="fs-5 text-white-60 mb-4 animated slideInDown" style="font-family: 'Rubik Wet Paint SC', serif; font-style: italic;">
+                                      Through innovative entrepreneurship
                                     </p>
-                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="/register">
-                                        Register for 2025
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown mb-3 mb-md-0" href="/register">
+                                      Register for 2025
+                                      <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                      </div>
                                     </a>
-                                </div>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -36,14 +36,17 @@
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5">
+            <div class="row">
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100"
-                            src="{{ asset('assets/img/66601D96-B018-46AE-B8A3-834361FBC2EA_1695001534.jpeg') }}" alt=""
-                            style="object-fit: cover" />
-                    </div>
+                    <div class="overflow-hidden" style="min-height: 400px">
+                        <img
+                          src="{{ asset('assets/img/emergingeconomyimg.jpeg') }}"
+                          alt="Emerging Economy"
+                          class="img-fluid w-100 h-100 object-fit-cover"
+                          style="object-fit: cover;"
+                        />
+                      </div>
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -51,33 +54,17 @@
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
                             About Us
                         </div>
-                        <h1 class="display-6 mb-5">
-                            We Help People In Need Around The World
-                        </h1>
+
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                             <p class="text-dark mb-2">
-                                Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                                stet lorem sit clita duo justo erat amet
+                               We are a community of bold, forward-thinking entrepreneurs dedicated to unlocking Africa’s next wave of economic prosperity. We believe innovation is the key—and we're committed to nurturing groundbreaking ideas, empowering young leaders, and building platforms where entrepreneurship thrives.
+
+                                From hosting dynamic annual conferences across major cities—connecting aspiring changemakers with seasoned industry leaders—to offering grants that support student ventures and early-stage businesses, we are creating a collaborative ecosystem where big ideas flourish and real impact is made.
+
+                                We live and breathe business, economic growth, and entrepreneurship because we know that innovative entrepreneurship is the key to unlocking the next wave of Africa’s prosperity.
                             </p>
-                            <span class="text-primary">Jhon Doe, Founder</span>
+
                         </div>
-                        <p class="mb-5">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                            sed stet lorem sit clita duo justo magna dolore erat amet
-                        </p>
-                        <a class="btn btn-primary py-2 px-3 me-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                        <a class="btn btn-outline-primary py-2 px-3" href="">
-                            Contact Us
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -158,12 +145,12 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden" style="height: 300px;">
-                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/dani1.jpg') }}" alt=""
+                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/dani4.JPG') }}" alt=""
                                 style="object-fit: cover;" />
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>DANIELLA OKEREKE</h5>
+                            <p class="text-primary">Executive Director/Convener</p>
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -175,12 +162,12 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden" style="height: 300px;">
-                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/dani3.jpg') }}" alt=""
+                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/Ndubisi_kelechi.JPG') }}" alt=""
                                 style="object-fit: cover;" />
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>NDUBUSI KELECHI BLESSED</h5>
+                            <p class="text-primary">Secretary</p>
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -192,12 +179,12 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden" style="height: 300px;">
-                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/dani4.JPG') }}" alt=""
+                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/Chima_obike.jpg') }}" alt=""
                                 style="object-fit: cover;" />
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>CHIMA OBIKE</h5>
+                            <p class="text-primary">Project Manager</p>
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -209,12 +196,12 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden" style="height: 300px;">
-                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/pic1.jpg') }}" alt=""
+                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/Jonathan_audu.JPG') }}" alt=""
                                 style="object-fit: cover;" />
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>JONATHAN AUDU</h5>
+                            <p class="text-primary">Tech/IT Support</p>
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
