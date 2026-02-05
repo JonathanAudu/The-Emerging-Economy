@@ -40,7 +40,7 @@
                             <div
                                 class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                                 <div class="position-relative mt-auto">
-                                    <img class="img-fluid gallery-image" src="{{ asset($image) }}"
+                                    <img class="img-fluid gallery-image" src="/{{ ltrim($image, '/') }}"
                                         alt="Image for {{ $year }} Event" />
                                 </div>
                             </div>

@@ -49,7 +49,7 @@
         <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>Abuja, Nigeria.</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@theemergingeconomy.org</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@theemergingeconomy.com</small>
             </div>
             <div class="col-lg-6 px-5 text-end">
                 <small>Follow us:</small>
@@ -99,7 +99,7 @@
                         </form>
                     @else
                         <a class="btn btn-outline-primary py-2 px-3" href="/register">
-                            REGISTER FOR 2025
+                            REGISTER
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
                             </div>
@@ -135,7 +135,7 @@
                     <h5 class="text-light mb-4">Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>Abuja, Nigeria</p>
                     <p><i class="fa fa-phone-alt me-3"></i>+234 806 404 8943</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@theemergingeconomy.org</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@theemergingeconomy.com</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>

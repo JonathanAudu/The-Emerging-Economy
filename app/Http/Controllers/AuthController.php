@@ -23,16 +23,30 @@ class AuthController extends Controller
             'first_name' => 'required|string',
             'last_name' => 'required|string',
             'email' => 'required|email|unique:users,email',
+            'phone' => 'required|string',
+            'city' => 'required|in:Abuja,Lagos,Kenya',
+            'pass_type' => 'required|in:Entry,Standard,VIP',
         ]);
 
         $user = new User();
         $user->first_name = $request->first_name;
         $user->last_name = $request->last_name;
         $user->email = $request->email;
+        $user->phone = $request->phone;
+        $user->city = $request->city;
+        $user->pass_type = $request->pass_type;
         $user->save();
 
-        Mail::to($user->email)->send(new UserRegisteredMail($user));
+        // If it's an AJAX request (Standard/VIP passes), return JSON
+        if ($request->ajax()) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Registration successful!',
+                'pass_type' => $user->pass_type
+            ]);
+        }
 
+        // For regular form submission (Entry pass), redirect with success message
         return back()->with('success', 'Registration Successful! Check your Mail');
     }
 
@@ -71,9 +85,31 @@ class AuthController extends Controller
         return redirect('/');
     }
 
-    public function dashboard(){
-        $users = User::all();
-        $totalUsers = $users->count();
+    public function dashboard(Request $request){
+        $query = User::query();
+
+        // If not admin, only show the current user's info
+        if (Auth::user()->email !== 'super@admin.com') { // Use the seeded admin email
+            $query->where('id', Auth::id());
+        } else {
+            // For admin, allow search and exclude admin user (id=1)
+            $query->where('id', '!=', 1);
+            if ($request->filled('search')) {
+                $search = $request->input('search');
+                $query->where(function($q) use ($search) {
+                    $q->where('first_name', 'like', "%$search%")
+                      ->orWhere('last_name', 'like', "%$search%")
+                      ->orWhere('email', 'like', "%$search%")
+                      ->orWhere('phone', 'like', "%$search%")
+                      ->orWhere('city', 'like', "%$search%")
+                      ->orWhere('pass_type', 'like', "%$search%")
+                    ;
+                });
+            }
+        }
+
+        $users = $query->orderBy('pass_type')->paginate(10);
+        $totalUsers = $query->count();
         return view('Auth.dashboard', compact('totalUsers', 'users'));
     }
 }

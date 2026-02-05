@@ -20,7 +20,7 @@ Route::get('/gallery/{year}', [HomeController::class, 'showGallery'])->name('gal
 
 Route::get('/register', [AuthController::class, 'registerPage']);
 Route::post('/register', [AuthController::class, 'register']);
-Route::get('/admin', [AuthController::class, 'loginPage']);
+Route::get('/admin', [AuthController::class, 'loginPage'])->name('login');
 Route::post('/admin', [AuthController::class, 'login']);
 Route::get('/dashboard', [AuthController::class, 'dashboard'])->middleware('auth');
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth');

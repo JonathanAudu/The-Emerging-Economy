@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use RecursiveIteratorIterator;
+use RecursiveDirectoryIterator;
 
 class HomeController extends Controller
 {
@@ -29,20 +31,29 @@ class HomeController extends Controller
     }
 
     public function gallery() {
-        return view('Gallery.index');
+        return view('gallery.index');
     }
 
-    public function showGallery($year){
+    public function showGallery($year) {
         $directory = public_path('assets/img/' . $year);
-        $images = glob($directory . '/*.{jpg,JPG,jpeg,png,gif}', GLOB_BRACE);
 
-        $imagePaths = array_map(function ($path) {
-            return 'assets/img/' . basename($path);
-        }, $images);
+        $images = [];
+        if (is_dir($directory)) {
+            $rii = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+            foreach ($rii as $file) {
+                if ($file->isDir()) continue;
+                $ext = strtolower($file->getExtension());
+                if (in_array($ext, ['jpg', 'jpeg', 'png', 'gif'])) {
+                    // Get the path relative to public/
+                    $relativePath = str_replace(public_path() . '/', '', $file->getPathname());
+                    $images[] = $relativePath;
+                }
+            }
+        }
 
         return view('gallery.show', [
             'year' => $year,
-            'images' => $imagePaths,
+            'images' => $images,
         ]);
     }
 }

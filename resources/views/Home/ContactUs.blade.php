@@ -33,7 +33,7 @@
                     <p>
                         For general questions about our programs, events, or how you can get involved, please contact us at:
                     </p>
-                    <p>Email: info@theemergingeconomy.org<br>
+                    <p>Email: info@theemergingeconomy.com<br>
                         Phone: +123-456-7890</p>
 
                         <div class="team-text bg-light text-center">

@@ -12,34 +12,54 @@
 
 <div class="container py-5">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="text-center">Admin Dashboard</h3>
+                    <h3 class="text-center">Dashboard</h3>
                 </div>
-
                 <div class="card-body">
                     <h4>Total Users: {{ $totalUsers }}</h4>
-                    <table class="table">
+                    @if (Auth::user()->email === 'admin@example.com')
+                    <form method="GET" action="" class="mb-3">
+                        <div class="input-group">
+                            <input type="text" name="search" class="form-control" placeholder="Search by name, email, phone, city, pass type" value="{{ request('search') }}">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </div>
+                    </form>
+                    @endif
+                    <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
                                 <th>#</th>
                                 <th>Name</th>
                                 <th>Email</th>
+                                <th>Phone</th>
+                                <th>City</th>
+                                <th>Pass Type</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($users as $index => $user)
-                                @if ($index != 0)
-                                    <tr>
-                                        <td>{{ $index }}</td>
-                                        <td>{{ $user->first_name }} {{ $user->last_name }}</td>
-                                        <td>{{ $user->email }}</td>
-                                    </tr>
-                                @endif
-                            @endforeach
+                            @forelse ($users as $index => $user)
+                                <tr>
+                                    <td>{{ ($users->currentPage() - 1) * $users->perPage() + $index + 1 }}</td>
+                                    <td>{{ $user->first_name }} {{ $user->last_name }}</td>
+                                    <td>{{ $user->email }}</td>
+                                    <td>{{ $user->phone }}</td>
+                                    <td>{{ $user->city }}</td>
+                                    <td>
+                                        <span class="badge bg-{{ $user->pass_type == 'VIP' ? 'warning' : ($user->pass_type == 'Standard' ? 'primary' : 'secondary') }} text-dark">
+                                            {{ $user->pass_type }}
+                                        </span>
+                                    </td>
+                                </tr>
+                            @empty
+                                <tr><td colspan="6" class="text-center">No users found.</td></tr>
+                            @endforelse
                         </tbody>
                     </table>
+                    <div class="d-flex justify-content-center">
+                        {{ $users->links() }}
+                    </div>
                 </div>
             </div>
         </div>

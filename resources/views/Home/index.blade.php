@@ -18,7 +18,7 @@
                                       Through innovative entrepreneurship
                                     </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown mb-3 mb-md-0" href="/register">
-                                      Register for 2025
+                                      Register
                                       <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                         <i class="fa fa-arrow-right"></i>
                                       </div>
@@ -59,7 +59,7 @@
                             <p class="text-dark mb-2">
                                We are a community of bold, forward-thinking entrepreneurs dedicated to unlocking Africa’s next wave of economic prosperity. We believe innovation is the key and we're committed to nurturing groundbreaking ideas, empowering young leaders, and building platforms where entrepreneurship thrives.
 
-                                From hosting dynamic annual conferences across major cities connecting aspiring changemakers with seasoned industry leaders to offering grants that support student ventures and early stage businesses, we are creating a collaborative ecosystem where big ideas flourish and real impact is made.
+                                From hosting dynamic annual conferences across major cities connecting aspiring change makers with seasoned industry leaders to offering grants that support student ventures and early stage businesses, we are creating a collaborative ecosystem where big ideas flourish and real impact is made.
 
                                 We live and breathe business, economic growth, and entrepreneurship because we know that innovative entrepreneurship is the key to unlocking the next wave of Africa’s prosperity.
                             </p>
@@ -196,7 +196,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden" style="height: 300px;">
-                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/Jonathan_audu.JPG') }}" alt=""
+                            <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/Jonathan.jpg') }}" alt=""
                                 style="object-fit: cover;" />
                         </div>
                         <div class="team-text bg-light text-center p-4">
