@@ -24,8 +24,6 @@ class AuthController extends Controller
             'last_name' => 'required|string',
             'email' => 'required|email|unique:users,email',
             'phone' => 'required|string',
-            'city' => 'required|in:Abuja,Lagos,Kenya',
-            'pass_type' => 'required|in:Entry,Standard,VIP',
         ]);
 
         $user = new User();
@@ -33,21 +31,16 @@ class AuthController extends Controller
         $user->last_name = $request->last_name;
         $user->email = $request->email;
         $user->phone = $request->phone;
-        $user->city = $request->city;
-        $user->pass_type = $request->pass_type;
         $user->save();
 
-        // If it's an AJAX request (Standard/VIP passes), return JSON
         if ($request->ajax()) {
             return response()->json([
                 'success' => true,
                 'message' => 'Registration successful!',
-                'pass_type' => $user->pass_type
             ]);
         }
 
-        // For regular form submission (Entry pass), redirect with success message
-        return back()->with('success', 'Registration Successful! Check your Mail');
+        return back()->with('success', 'Registration Successful!');
     }
 
 
@@ -100,15 +93,12 @@ class AuthController extends Controller
                     $q->where('first_name', 'like', "%$search%")
                       ->orWhere('last_name', 'like', "%$search%")
                       ->orWhere('email', 'like', "%$search%")
-                      ->orWhere('phone', 'like', "%$search%")
-                      ->orWhere('city', 'like', "%$search%")
-                      ->orWhere('pass_type', 'like', "%$search%")
-                    ;
+                      ->orWhere('phone', 'like', "%$search%");
                 });
             }
         }
 
-        $users = $query->orderBy('pass_type')->paginate(10);
+        $users = $query->orderBy('id')->paginate(10);
         $totalUsers = $query->count();
         return view('Auth.dashboard', compact('totalUsers', 'users'));
     }

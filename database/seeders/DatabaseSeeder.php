@@ -21,8 +21,6 @@ class DatabaseSeeder extends Seeder
             'last_name' => 'Admin',
             'email' => 'super@admin.com',
             'phone' => '08060000000',
-            'city' => 'Abuja',
-            'pass_type' => 'VIP',
             'password' => Hash::make('superadmin')
         ]);
     }

@@ -22,6 +22,14 @@ class HomeController extends Controller
         return view('Home.missionvission');
     }
 
+    public function seda() {
+        return view('Home.seda');
+    }
+
+    public function conference() {
+        return view('Home.conference');
+    }
+
     public function FAQs() {
         return view('Home.FAQ');
     }

@@ -6,24 +6,27 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('assets/img/240_F_1111621678_NWjaDfm9h7M0UXPP9nEYlUxdv8Csqu3N.jpg') }}" alt="Image" />
+                    <img class="w-100" src="{{ asset('assets/img/240_F_1111621678_NWjaDfm9h7M0UXPP9nEYlUxdv8Csqu3N.jpg') }}"
+                        alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 pt-5 pt-md-3 pt-sm-2">
-                                    <h1 class="text-white mb-3 animated slideInDown" style="font-family: 'Bodoni Moda SC', serif;">
-                                      Powering the Next Wave of Africa’s Economic Prosperity
+                                    <h1 class="text-white mb-3 animated slideInDown"
+                                        style="font-family: 'Bodoni Moda SC', serif;">
+                                        Building Africa’s Next Wave of Prosperity, Starting with Young People
                                     </h1>
-                                    <p class="fs-5 text-white-60 mb-4 animated slideInDown" style="font-family: 'Rubik Wet Paint SC', serif; font-style: italic;">
-                                      Through innovative entrepreneurship
-                                    </p>
+                                    {{-- <p class="fs-5 text-white-60 mb-4 animated slideInDown"
+                                        style="font-family: 'Rubik Wet Paint SC', serif; font-style: italic;">
+
+                                    </p> --}}
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown mb-3 mb-md-0" href="/register">
-                                      Register
-                                      <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                      </div>
+                                        Register
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -40,13 +43,9 @@
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="overflow-hidden" style="min-height: 400px">
-                        <img
-                          src="{{ asset('assets/img/emergingeconomyimg.jpeg') }}"
-                          alt="Emerging Economy"
-                          class="img-fluid w-100 h-100 object-fit-cover"
-                          style="object-fit: cover;"
-                        />
-                      </div>
+                        <img src="{{ asset('assets/img/emergingeconomyimg.jpeg') }}" alt="Emerging Economy"
+                            class="img-fluid w-100 h-100 object-fit-cover" style="object-fit: cover;" />
+                    </div>
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -57,11 +56,12 @@
 
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                             <p class="text-dark mb-2">
-                               We are a community of bold, forward-thinking entrepreneurs dedicated to unlocking Africa’s next wave of economic prosperity. We believe innovation is the key and we're committed to nurturing groundbreaking ideas, empowering young leaders, and building platforms where entrepreneurship thrives.
-
-                                From hosting dynamic annual conferences across major cities connecting aspiring change makers with seasoned industry leaders to offering grants that support student ventures and early stage businesses, we are creating a collaborative ecosystem where big ideas flourish and real impact is made.
-
-                                We live and breathe business, economic growth, and entrepreneurship because we know that innovative entrepreneurship is the key to unlocking the next wave of Africa’s prosperity.
+                                The Emerging Economy is a socioeconomic development platform focused on powering Africa’s
+                                next wave of economic prosperity by positioning young people at the centre of value
+                                creation.
+                                We work through tertiary institutions and early enterprise pathways, supporting practical
+                                skills development, entrepreneurship, and collaboration that strengthen local economies and
+                                prepare young people to participate meaningfully in a changing economic landscape.
                             </p>
 
                         </div>
@@ -85,11 +85,16 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="{{ asset('assets/img/icon-1.png') }}" alt="" />
-                        <h4 class="mb-3">Smart Money Student</h4>
+                        <h4 class="mb-3">Socioeconomic Development for African Undergraduates (SEDA)</h4>
                         <p class="mb-4">
-                            To instill smart money mindset In the younger generation and provide financial awareness and opportunities, insights, skills so as to curb the high rising tendency of internet fraud and scams amongst them and empowering them unto profitable enterprises.
+                            SEDA is the primary execution arm of The Emerging Economy.
+                            It supports undergraduates and young entrepreneurs with the skills, mindset, mentorship, and
+                            exposure needed to build sustainable ventures and participate actively in economic life. By
+                            engaging young people early, SEDA strengthens enterprise formation and contributes to long-term
+                            economic continuity.
+                            SEDA is where strategy translates into action.
                         </p>
-                        <a class="btn btn-outline-primary px-3" href="">
+                        <a class="btn btn-outline-primary px-3" href="/seda">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -100,11 +105,16 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="{{ asset('assets/img/icon-2.png') }}" alt="" />
-                        <h4 class="mb-3">Annual Conference</h4>
+                        <h4 class="mb-3">Emerging Economy Annual Conference</h4>
                         <p class="mb-4">
-                            The Emerging Economy annual summit is where it all happens. Brainstorm, analyze, innovate on the common opportunities for socioeconomic development, the unique challenges and propel a way forward.
+                            The Emerging Economy Annual Conference is a Nigeria-based convening focused on how Africa’s next
+                            phase of economic growth can be built, beginning with young people, enterprise, and practical
+                            economic participation.
+                            It brings together young entrepreneurs, builders, educators, policymakers, ecosystem leaders,
+                            and partners in Nigeria to explore how youth-centred enterprise and innovation can drive
+                            sustainable prosperity within local economies, with relevance for the wider African context.
                         </p>
-                        <a class="btn btn-outline-primary px-3" href="">
+                        <a class="btn btn-outline-primary px-3" href="/conference">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -117,9 +127,13 @@
                         <img class="img-fluid mb-4" src="{{ asset('assets/img/icon-3.png') }}" alt="" />
                         <h4 class="mb-3">Emerging Economy</h4>
                         <p class="mb-4">
-                            Bridging the gap between emerging economies and more developed countries to improve the overall global economy.Improving the overall global economy through national contribution and development.
+                            The Emerging Economy is a socioeconomic development platform focused on powering Africa’s next
+                            wave of economic prosperity by positioning young people at the centre of value creation.
+                            We work through tertiary institutions and early enterprise pathways, supporting practical skills
+                            development, entrepreneurship, and collaboration that strengthen local economies and prepare
+                            young people to participate meaningfully in a changing economic landscape.
                         </p>
-                        <a class="btn btn-outline-primary px-3" href="">
+                        <a class="btn btn-outline-primary px-3" href="/about-the-convener">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -139,7 +153,7 @@
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
                     Team Members
                 </div>
-                <h1 class="display-6 mb-5">Let's Meet With Our Ordinary Soldiers</h1>
+                <h1 class="display-6 mb-5">Let's Meet With Our Team Members</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -152,9 +166,12 @@
                             <h5>DANIELLA OKEREKE</h5>
                             <p class="text-primary">Executive Director/Convener</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href="https://www.facebook.com/okereke.daniella"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href="https://x.com/DaniellaOkereke"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href="https://www.instagram.com/daniella_okereke"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/okereke.daniella"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://x.com/DaniellaOkereke"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/daniella_okereke"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -169,9 +186,12 @@
                             <h5>NDUBUSI KELECHI BLESSED</h5>
                             <p class="text-primary">Secretary</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href="https://www.facebook.com/Ndubuisi.Kelechi.Blessed"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href="https://www.x.com/Adaa_Samm"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href="https://www.instagram.com/kel_samm"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/Ndubuisi.Kelechi.Blessed"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.x.com/Adaa_Samm"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/kel_samm"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -186,9 +206,12 @@
                             <h5>CHIMA OBIKE</h5>
                             <p class="text-primary">Project Manager</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href="https://www.facebook.com/obikechima"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href="https://www.x.com/obikechima"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href="https://www.instagram.com/obikechima"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/obikechima"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.x.com/obikechima"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/obikechima"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -203,9 +226,11 @@
                             <h5>JONATHAN AUDU</h5>
                             <p class="text-primary">Tech/IT Support</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href="https://www.facebook.com/jonathan.audu"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/jonathan.audu"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href="https://x.com/Jon_D_Audu"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href="https://www.instagram.com/jon_audu/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square" href="https://www.instagram.com/jon_audu/"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

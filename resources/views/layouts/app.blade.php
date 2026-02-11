@@ -62,7 +62,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="/" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-primary m-0" style="font-family: 'Bodoni Moda SC', serif;">
+                <h1 class="fw-bold text-primary m-0 brand-title">
                     The Emerging <span class="text-white">Economy</span>
                 </h1>
             </a>
@@ -72,20 +72,40 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="/" class="nav-item nav-link active">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="/mission-vission" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About
-                            Us</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="/mission-vission" class="dropdown-item">History, Vision & Mission</a>
-                            <a href="/about-the-convener" class="dropdown-item">About the Convener</a>
-                        </div>
+
+                    <a href="/" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">
+                        Home
+                    </a>
+
+                    <a href="/about-the-convener" class="nav-item nav-link {{ request()->is('about-the-convener') ? 'active' : '' }}">
+                        Meet the Founder
+                    </a>
+
+                    <a href="{{ url('/gallery') }}"
+                        class="nav-item nav-link {{ request()->is('gallery') ? 'active' : '' }}">
+                        Events & Gallery
+                    </a>
+
+                    <a href="/Contact-Us" class="nav-item nav-link {{ request()->is('Contact-Us') ? 'active' : '' }}">
+                        Contact Us
+                    </a>
+
+                    <div class="d-lg-none mt-3">
+                        @if (Auth::check())
+                            <a class="btn btn-outline-primary w-100" href="/logout"
+                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                LOGOUT
+                            </a>
+                        @else
+                            <a class="btn btn-outline-primary w-100" href="/register">
+                                REGISTER
+                            </a>
+                        @endif
                     </div>
-                    <a href="/gallery" class="nav-item nav-link">Events & Gallery</a>
-                    <a href="/FAQ" class="nav-item nav-link">FAQs</a>
-                    <a href="/Contact-Us" class="nav-item nav-link">Contact Us</a>
+
                 </div>
-                <div class="d-none d-lg-flex ms-2">
+
+                <div class="d-none d-md-flex ms-2">
                     @if (Auth::check())
                         <a class="btn btn-outline-primary py-2 px-3" href="/logout"
                             onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
@@ -150,7 +170,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">theemergingeconomy</a>, All Right Reserved.
+                        &copy; {{ date('Y') }} <a href="#">theemergingeconomy</a>. All Rights Reserved.
                     </div>
                 </div>
             </div>

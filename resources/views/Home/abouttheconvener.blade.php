@@ -8,11 +8,11 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item text-white">
-                        <h4>
-                            <q style="color: #ffffffca; font-style: italic;">In you, Lord, I have taken refuge; let me never
-                                be put to shame;<br> deliver me in your righteousness. Turn your ear to me, come quickly to
-                                my rescue</q>
-                        </h4>
+                        <!-- <h4>
+                                <q style="color: #ffffffca; font-style: italic;">In you, Lord, I have taken refuge; let me never
+                                    be put to shame;<br> deliver me in your righteousness. Turn your ear to me, come quickly to
+                                    my rescue</q>
+                            </h4> -->
                     </li>
                 </ol>
             </nav>
@@ -33,15 +33,76 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About The Convener
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Meet the Founder
                         </div>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                            <p class="text-dark mb-2">
-                                Daniella is a visionary leader committed to building an inclusive economic future, particularly for young Africans. Her passion ignited during her college years, leading to the creation of Initiative SEDA (Socio-economic Development for African Undergraduates). This impactful nonprofit empowers African undergraduates through business mentorship, community support, skill-building, and financial grants, directly combating dropout rates and fostering a cycle of empowerment. Furthering her vision, Daniella convenes The Emerging Economy Conference, a dynamic platform designed to catalyze Africa's next phase of shared economic prosperity through innovative entrepreneurship, business reformation, and sustainable development. Her perspective is further enriched by her role as a World Economic Forum Global Shaper and her studies as an MIT MicroMasters student in Data, Design of Policy, and Economics, bringing a valuable global and data-driven lens to her work.
 
+                            <p class="text-dark mb-3">
+                                Daniella Okereke Nneamaka is the Founder of <strong>The Emerging Economy</strong>, a
+                                platform focused on
+                                powering Africa’s next wave of economic prosperity by centring young people in value
+                                creation,
+                                enterprise, and long-term economic sustainability.
                             </p>
+
+                            <p class="text-dark mb-3">
+                                Her work sits at the intersection of youth development, entrepreneurship, economic
+                                participation,
+                                and emerging technologies. She is particularly interested in how early exposure to
+                                enterprise,
+                                combined with data-informed decision-making and evolving tools such as artificial
+                                intelligence,
+                                can reshape how young people build, collaborate, and contribute economically across Africa.
+                            </p>
+
+                            <p class="text-dark mb-3">
+                                Daniella’s thinking is shaped by both practical experience and global exposure. She has
+                                built and
+                                experimented with early-stage ventures, gaining first-hand insight into the importance of
+                                structure,
+                                scale, and sustainability in business. These experiences have informed her focus on
+                                system-building
+                                over short-term success narratives, and on preparing young people to participate
+                                meaningfully in
+                                economic life from an early stage.
+                            </p>
+
+                            <p class="text-dark mb-3">
+                                She is currently pursuing the <strong>MicroMasters in Data, Economics, and Design of Policy
+                                    (DEDP)</strong>
+                                at the Massachusetts Institute of Technology, deepening her understanding of how data,
+                                policy design,
+                                and economic systems interact to shape development outcomes at scale. She is also an active
+                                member of
+                                the <strong>Global Shapers Community</strong>, an initiative of the World Economic Forum,
+                                where she engages
+                                with other young leaders on questions of economic development, innovation, and inclusive
+                                growth.
+                            </p>
+
+                            <p class="text-dark mb-4">
+                                Through The Emerging Economy and its flagship initiative, <strong>SEDA (Socioeconomic
+                                    Development for
+                                    African Undergraduates)</strong>, Daniella is focused on building pathways that move
+                                young people from
+                                education into sustained economic participation. Her approach prioritises structure over
+                                hype,
+                                learning over visibility, and long-term economic resilience over speed.
+                            </p>
+
+                            <p class="text-dark mb-4">
+                                She believes Africa’s greatest advantage lies not only in its youthful population, but in
+                                how
+                                deliberately that population is equipped to build, adapt, and lead within a rapidly changing
+                                global economy.
+                            </p>
+
                             <hr>
-                            <span class="text-primary">Daniella Okereke, Founder</span>
+
+                            <span class="text-primary fw-semibold">
+                                Daniella Okereke, Founder
+                            </span>
+
                         </div>
 
                         <div class="team-text bg-light text-center">

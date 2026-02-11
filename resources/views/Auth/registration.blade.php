@@ -93,7 +93,7 @@
                                 </div>
                             </div>
 
-                            <div class="row mb-3">
+                            <!-- <div class="row mb-3">
                                 <label for="city" class="col-md-4 col-form-label text-md-end">City</label>
                                 <div class="col-md-6">
                                     <select id="city" name="city" class="form-control @error('city') is-invalid @enderror" required>
@@ -203,7 +203,7 @@
                                         </span>
                                     @enderror
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="row mb-0">
                                 <div class="col-md-8 offset-md-4">
